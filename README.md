@@ -2,7 +2,7 @@
 
 An Age Calculator web application that helps you calculate your age based on your date of birth.
 
-![Age Calculator Screenshot](screenshot.png)
+![Age Calculator Screenshot](template.png)
 
 ## Table of Contents
 
