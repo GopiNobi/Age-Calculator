@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  #container {
+    background-color: white;
+    width: auto;
+    max-width: 600px; /* Adjust the maximum width as per your design */
+    text-align: center;
+    margin: 20px;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  #container div {
+    margin: 10px 0;
+  }
+  
+  #container :nth-child(3) {
+    background-color: black;
+    color: white;
+    padding: 4px;
+    font-size: 20px;
+    border-radius: 10px;
+  }
+  
+  #dobtype {
+    font-size: 25px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  
+  #container :nth-child(6) {
+    margin-top: 15px;
+    font-size: 18px;
+  }
+  
+  #cal-btn {
+    font-size: 18px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #944444;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Media Query for responsiveness */
+  @media (max-width: 768px) {
+    #container {
+      width: 90%;
+    }
+  }
+  
